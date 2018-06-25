@@ -66,6 +66,13 @@
 			
 		</plugins>
 	</build>
+	
+<distributionManagement>
+    <repository>
+      <id>gradle-release</id>
+      <url>http://18.219.179.20:8081/artifactory/gradle-release/</url>
+    </repository>
+  </distributionManagement>
 
 
 </project>
