@@ -70,13 +70,13 @@
 <distributionManagement>
     <repository>
         <id>central</id>
-        <name>ip-172-31-44-94-releases</name>
+        <name>Internalreleases</name>
         <url>http://18.219.179.20:8081/artifactory/libs-release</url>
     </repository>
 	
     <snapshotRepository>
-        <id>snapshots</id>
-        <name>ip-172-31-44-94-snapshots</name>
+        <id>central</id>
+        <name>Internalreleases</name>
         <url>http://18.219.179.20:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
 		
