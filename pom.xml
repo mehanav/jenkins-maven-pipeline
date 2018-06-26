@@ -69,10 +69,19 @@
 	
 <distributionManagement>
     <repository>
-      <id>gradle-release</id>
-      <url>http://18.219.179.20:8081/artifactory/gradle-release/</url>
+        <id>central</id>
+        <name>ip-172-31-44-94-releases</name>
+        <url>http://18.219.179.20:8081/artifactory/libs-release</url>
     </repository>
+	
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-44-94-snapshots</name>
+        <url>http://18.219.179.20:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+		
   </distributionManagement>
+
 
 
 </project>
